@@ -175,7 +175,7 @@ You can also build Nix from source by following the instructions at https://nixo
 1. Install Dependencies (Debian 10 Buster)
 
     ```
-    sudo apt-get install curl git gnupg2 dirmngr
+    sudo apt-get install -y curl git gnupg2 dirmngr rsync
     ```
 
 2. Install latest Nix in "multi-user mode" with GPG Verification according to https://nixos.org/nix/download.html
@@ -189,7 +189,13 @@ You can also build Nix from source by following the instructions at https://nixo
     ```
 
     Then follow the instructions. Open a new terminal window when you're done.
-
+    > Would you like to see a more detailed list of what we will do?
+    ** N **
+    > Can we use sudo?
+    ** Y **
+    > Ready to continue?
+    ** Y **
+ 
     If you get an error similar to
 
     ```
