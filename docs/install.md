@@ -172,6 +172,9 @@ This is borrowed from the [NixOS manual](https://nixos.org/nixos/manual/index.ht
 The following steps are meant to be run on the machine you deploy from, not the machine you deploy to.
 You can also build Nix from source by following the instructions at https://nixos.org/nix/manual/#ch-installing-source.
 
+1. Download a VM image (https://www.linuxvmimages.com/images/debian-11/) and add to VirtualBox, or use some other hypervisor.
+1.1 Change the default network mode from NAT to Bridged. When the debian VM boots, the IP address is displayed on the login screen and you can SSH to it from your laptop. Now it is easy to copy/paste the commands below.
+
 1. Install Dependencies (Debian 10 Buster)
 
     ```
