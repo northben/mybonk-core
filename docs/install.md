@@ -189,12 +189,18 @@ You can also build Nix from source by following the instructions at https://nixo
     ```
 
     Then follow the instructions. Open a new terminal window when you're done.
+    
     > Would you like to see a more detailed list of what we will do?
-    ** N **
+    
+    **N**
+    
     > Can we use sudo?
-    ** Y **
+    
+    **Y**
+    
     > Ready to continue?
-    ** Y **
+    
+    **Y**
  
     If you get an error similar to
 
